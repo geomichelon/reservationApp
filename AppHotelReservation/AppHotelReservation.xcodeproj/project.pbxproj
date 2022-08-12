@@ -11,6 +11,7 @@
 		9042B83428A59D4700C3F1A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9042B83328A59D4700C3F1A5 /* ContentView.swift */; };
 		9042B83628A59D4700C3F1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9042B83528A59D4700C3F1A5 /* Assets.xcassets */; };
 		9042B83928A59D4700C3F1A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9042B83828A59D4700C3F1A5 /* Preview Assets.xcassets */; };
+		9042B84328A6DD4000C3F1A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9042B84228A6DD4000C3F1A5 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9042B83328A59D4700C3F1A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9042B83528A59D4700C3F1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9042B83828A59D4700C3F1A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9042B84228A6DD4000C3F1A5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		9042B83028A59D4700C3F1A5 /* AppHotelReservation */ = {
 			isa = PBXGroup;
 			children = (
+				9042B84128A6D6F300C3F1A5 /* View */,
+				9042B84028A6D6EC00C3F1A5 /* Model */,
+				9042B83F28A6D6E000C3F1A5 /* ViewModel */,
 				9042B83128A59D4700C3F1A5 /* AppHotelReservationApp.swift */,
-				9042B83328A59D4700C3F1A5 /* ContentView.swift */,
 				9042B83528A59D4700C3F1A5 /* Assets.xcassets */,
 				9042B83728A59D4700C3F1A5 /* Preview Content */,
 			);
@@ -65,6 +69,29 @@
 				9042B83828A59D4700C3F1A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9042B83F28A6D6E000C3F1A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9042B84028A6D6EC00C3F1A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9042B84228A6DD4000C3F1A5 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9042B84128A6D6F300C3F1A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9042B83328A59D4700C3F1A5 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			files = (
 				9042B83428A59D4700C3F1A5 /* ContentView.swift in Sources */,
 				9042B83228A59D4700C3F1A5 /* AppHotelReservationApp.swift in Sources */,
+				9042B84328A6DD4000C3F1A5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
